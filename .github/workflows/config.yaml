@@ -2,7 +2,10 @@ name: dbt CI
 
 on:
   pull_request:
-    branches: [main]
+    branches: [test-ci-setup]
+    paths:
+      - "Dbtcloud_analytics/**"
+      - "Dbtcloud_analytics/.github/workflows/config.yaml"
 
 jobs:
   dbt-ci:
