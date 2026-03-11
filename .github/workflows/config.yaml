@@ -6,7 +6,6 @@ on:
     paths:
       - "Dbtcloud_analytics/**"
       - "Dbtcloud_analytics/.github/workflows/config.yaml"
-  
 jobs:
   dbt-ci:
     runs-on: ubuntu-latest
