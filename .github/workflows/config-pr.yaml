@@ -1,4 +1,4 @@
-name: dbt CI
+name: dbt--PR--CI
 
 on:
   pull_request:
