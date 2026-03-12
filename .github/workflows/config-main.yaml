@@ -2,7 +2,7 @@ name: dbt CI
 
 on:
   push:
-    branches: [main]
+    branches: [test-ci-setup]
 
 jobs:
   dbt-ci:
